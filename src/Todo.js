@@ -46,6 +46,8 @@ const buttonStyle = {
 
 Todo.propTypes = {
   todoProp: PropTypes.object.isRequired,
+  markCompleteProp2: PropTypes.func.isRequired,
+  deleteTodoProp2: PropTypes.func.isRequired,
 };
 
 export default Todo;
